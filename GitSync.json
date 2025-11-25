@@ -1,0 +1,16 @@
+{
+    "system_version": "6.1.6.150",
+    "readme_addons": {
+        "Integration": {},
+        "Mappings": {
+            "GoogleChronicle,VirusTotalV3": "Adding a readme addon "
+        },
+        "Visual Family": {},
+        "Playbook": {},
+        "Connector": {},
+        "Job": {}
+    },
+    "settings": {
+        "update_root_readme": true
+    }
+}
