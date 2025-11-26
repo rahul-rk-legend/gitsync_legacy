@@ -287,100 +287,6 @@
     },
     {
         "environment": "Default Environment",
-        "integrationIdentifier": "GoogleChronicle",
-        "settings": {
-            "instanceDescription": null,
-            "instanceName": "System Default Instance",
-            "settings": [
-                {
-                    "integrationIdentifier": "GoogleChronicle",
-                    "propertyName": "UI Root",
-                    "propertyDescription": "UI root of the Chronicle instance. It will be used to create a link that points back to Chronicle across multiple actions.",
-                    "propertyDisplayName": "UI Root",
-                    "propertyType": 2,
-                    "isMandatory": true,
-                    "value": "https://{instance}.chronicle.security",
-                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
-                    "environment": null,
-                    "id": 36,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0
-                },
-                {
-                    "integrationIdentifier": "GoogleChronicle",
-                    "propertyName": "API Root",
-                    "propertyDescription": "API root of the Chronicle instance.",
-                    "propertyDisplayName": "API Root",
-                    "propertyType": 2,
-                    "isMandatory": true,
-                    "value": "https://backstory.googleapis.com",
-                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
-                    "environment": null,
-                    "id": 37,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0
-                },
-                {
-                    "integrationIdentifier": "GoogleChronicle",
-                    "propertyName": "User's Service Account",
-                    "propertyDescription": "Service Account that is used for authentication. You can configure either this parameter or the Workload Identity Email parameter. If both this and Workload Identity Email not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
-                    "propertyDisplayName": "User's Service Account",
-                    "propertyType": 3,
-                    "isMandatory": false,
-                    "value": "***************",
-                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
-                    "environment": null,
-                    "id": 38,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0
-                },
-                {
-                    "integrationIdentifier": "GoogleChronicle",
-                    "propertyName": "Workload Identity Email",
-                    "propertyDescription": "The client email address of your workload identity. You can configure either this parameter or the User's Service Account parameter. To impersonate service accounts with the workload identity email address, grant the Service Account Token Creator role to your service account. If both this and User's Service Account not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
-                    "propertyDisplayName": "Workload Identity Email",
-                    "propertyType": 3,
-                    "isMandatory": false,
-                    "value": "",
-                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
-                    "environment": null,
-                    "id": 39,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0
-                },
-                {
-                    "integrationIdentifier": "GoogleChronicle",
-                    "propertyName": "Verify SSL",
-                    "propertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Chronicle server is valid.",
-                    "propertyDisplayName": "Verify SSL",
-                    "propertyType": 0,
-                    "isMandatory": false,
-                    "value": "True",
-                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
-                    "environment": null,
-                    "id": 40,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0
-                },
-                {
-                    "integrationIdentifier": "GoogleChronicle",
-                    "propertyName": "AgentIdentifier",
-                    "propertyDescription": null,
-                    "propertyDisplayName": "Agent",
-                    "propertyType": 9,
-                    "isMandatory": false,
-                    "value": null,
-                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
-                    "environment": null,
-                    "id": 41,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0
-                }
-            ]
-        }
-    },
-    {
-        "environment": "Default Environment",
         "integrationIdentifier": "Jira",
         "settings": {
             "instanceDescription": null,
@@ -553,6 +459,100 @@
                     "integrationInstance": "6850141a-3657-403e-97d6-7cfd66293b49",
                     "environment": null,
                     "id": 51,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "GoogleChronicle",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "UI Root",
+                    "propertyDescription": "UI root of the Chronicle instance. It will be used to create a link that points back to Chronicle across multiple actions.",
+                    "propertyDisplayName": "UI Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://{instance}.chronicle.security",
+                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
+                    "environment": null,
+                    "id": 36,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "API Root",
+                    "propertyDescription": "API root of the Chronicle instance.",
+                    "propertyDisplayName": "API Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://eu-chronicle.googleapis.com/v1alpha/projects/251657645427/locations/eu/instances/ab6f2f36-8b9d-4f06-9429-e4eeb73b0c7b",
+                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
+                    "environment": null,
+                    "id": 37,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "User's Service Account",
+                    "propertyDescription": "Service Account that is used for authentication. You can configure either this parameter or the Workload Identity Email parameter. If both this and Workload Identity Email not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+                    "propertyDisplayName": "User's Service Account",
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "value": "***************",
+                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
+                    "environment": null,
+                    "id": 38,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "Workload Identity Email",
+                    "propertyDescription": "The client email address of your workload identity. You can configure either this parameter or the User's Service Account parameter. To impersonate service accounts with the workload identity email address, grant the Service Account Token Creator role to your service account. If both this and User's Service Account not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+                    "propertyDisplayName": "Workload Identity Email",
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
+                    "environment": null,
+                    "id": 39,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Chronicle server is valid.",
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "False",
+                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
+                    "environment": null,
+                    "id": 40,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "cbe9f37c-899d-45c6-8069-162a5962b5f3",
+                    "environment": null,
+                    "id": 41,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0
                 }
