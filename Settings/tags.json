@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "value": "Exchange",
+        "name": "exchange",
+        "propertyName": "",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 1,
+        "compareType": 2,
+        "id": 7,
+        "creationTimeUnixTimeInMs": 1764161208720,
+        "modificationTimeUnixTimeInMs": 1764161208720
+    },
+    {
+        "value": "Atlassian",
+        "name": "Testing",
+        "propertyName": "",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 1,
+        "compareType": 2,
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1764161186622,
+        "modificationTimeUnixTimeInMs": 1764161186622
+    }
+]
