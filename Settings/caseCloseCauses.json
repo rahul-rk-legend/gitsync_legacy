@@ -187,5 +187,12 @@
         "id": 27,
         "creationTimeUnixTimeInMs": 1764142290261,
         "modificationTimeUnixTimeInMs": 1764142290261
+    },
+    {
+        "rootCause": "Testing",
+        "forCloseReason": 1,
+        "id": 28,
+        "creationTimeUnixTimeInMs": 1764162382943,
+        "modificationTimeUnixTimeInMs": 1764162382943
     }
 ]
