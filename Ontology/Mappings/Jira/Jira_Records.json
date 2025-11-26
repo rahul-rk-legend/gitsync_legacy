@@ -1,0 +1,46 @@
+[
+    {
+        "id": 0,
+        "source": "Jira",
+        "product": "Atlassian",
+        "eventName": null,
+        "familyName": "Default",
+        "familyId": 0,
+        "mappingStatus": null,
+        "changeSource": 0,
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "Jira",
+        "product": "Professional Services",
+        "eventName": null,
+        "familyName": "Default",
+        "familyId": 0,
+        "mappingStatus": null,
+        "changeSource": 0,
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "Jira",
+        "product": "Atlassian",
+        "eventName": "Task",
+        "familyName": "Default",
+        "familyId": 0,
+        "mappingStatus": null,
+        "changeSource": 1,
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "Jira",
+        "product": "Atlassian",
+        "eventName": "Epic",
+        "familyName": "Default",
+        "familyId": 0,
+        "mappingStatus": null,
+        "changeSource": 1,
+        "exampleEventFields": []
+    }
+]

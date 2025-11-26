@@ -1,0 +1,62 @@
+[
+    {
+        "entityIdentifier": "Testing",
+        "category": "Domain",
+        "forDBMigration": false,
+        "environments": [
+            "E"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1764150114928,
+        "modificationTimeUnixTimeInMs": 1764150114928
+    },
+    {
+        "entityIdentifier": "Testing 1",
+        "category": "Hostname",
+        "forDBMigration": false,
+        "environments": [
+            "F",
+            "E"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1764150140535,
+        "modificationTimeUnixTimeInMs": 1764150140535
+    },
+    {
+        "entityIdentifier": "Testing 2",
+        "category": "Domain",
+        "forDBMigration": false,
+        "environments": [
+            "G",
+            "Default Environment"
+        ],
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1764150152915,
+        "modificationTimeUnixTimeInMs": 1764150152915
+    },
+    {
+        "entityIdentifier": "Testing 3",
+        "category": "Hostname",
+        "forDBMigration": false,
+        "environments": [
+            "*"
+        ],
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1764150164351,
+        "modificationTimeUnixTimeInMs": 1764150164351
+    },
+    {
+        "entityIdentifier": "Testing 4",
+        "category": "Hostname",
+        "forDBMigration": false,
+        "environments": [
+            "Default Environment",
+            "E",
+            "F",
+            "G"
+        ],
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1764150177530,
+        "modificationTimeUnixTimeInMs": 1764150177530
+    }
+]

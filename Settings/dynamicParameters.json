@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Dynamic Column",
+        "type": 0,
+        "defaultValue": "Testing",
+        "optionalValues": null
+    },
+    {
+        "id": 2,
+        "name": "Dynamic 1",
+        "type": 1,
+        "defaultValue": "Testing Dynamic ",
+        "optionalValues": [
+            "Testing Dynamic "
+        ]
+    }
+]

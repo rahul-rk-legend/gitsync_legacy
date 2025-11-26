@@ -1,0 +1,25 @@
+[
+    {
+        "address": "192.168.1.0/16",
+        "name": "Testing",
+        "priority": 1,
+        "environments": [
+            "F",
+            "G"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1764151768036,
+        "modificationTimeUnixTimeInMs": 1764151768036
+    },
+    {
+        "address": "192.168.1.0/8",
+        "name": "Testing 1",
+        "priority": 3,
+        "environments": [
+            "*"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1764151794069,
+        "modificationTimeUnixTimeInMs": 1764151794069
+    }
+]

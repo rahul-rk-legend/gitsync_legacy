@@ -1,0 +1,59 @@
+[
+    {
+        "type": 0,
+        "name": "Testing Template",
+        "content": "Testing Template",
+        "creatorUserName": "8ce8b846-6f65-48bd-938f-5a0022881d5b",
+        "forMigration": false,
+        "environments": [
+            "Default Environment",
+            "E",
+            "F",
+            "G"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1764150200348,
+        "modificationTimeUnixTimeInMs": 1764150200348
+    },
+    {
+        "type": 0,
+        "name": "Testing Template 1",
+        "content": "Testing Template 1",
+        "creatorUserName": "8ce8b846-6f65-48bd-938f-5a0022881d5b",
+        "forMigration": false,
+        "environments": [
+            "E",
+            "F"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1764150213629,
+        "modificationTimeUnixTimeInMs": 1764150213629
+    },
+    {
+        "type": 0,
+        "name": "Testing Template 2",
+        "content": "Testing Template 2",
+        "creatorUserName": "8ce8b846-6f65-48bd-938f-5a0022881d5b",
+        "forMigration": false,
+        "environments": [
+            "G",
+            "Default Environment"
+        ],
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1764150223793,
+        "modificationTimeUnixTimeInMs": 1764150223793
+    },
+    {
+        "type": 0,
+        "name": "Testing Template 3",
+        "content": "Testing Template 3",
+        "creatorUserName": "8ce8b846-6f65-48bd-938f-5a0022881d5b",
+        "forMigration": false,
+        "environments": [
+            "*"
+        ],
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1764150237683,
+        "modificationTimeUnixTimeInMs": 1764150237683
+    }
+]

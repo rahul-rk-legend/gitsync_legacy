@@ -1,0 +1,24 @@
+[
+    {
+        "domain": "amazon.com",
+        "alias": null,
+        "environments": [
+            "*"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1764151835965,
+        "modificationTimeUnixTimeInMs": 1764151835965
+    },
+    {
+        "domain": "google.com",
+        "alias": null,
+        "environments": [
+            "E",
+            "F",
+            "G"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1764151817861,
+        "modificationTimeUnixTimeInMs": 1764151817861
+    }
+]
