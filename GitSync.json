@@ -6,7 +6,11 @@
             "GoogleChronicle,VirusTotalV3": "Adding a readme addon "
         },
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "Playbook 2": "adding a readme addon",
+            "Block 1": "adding a readme addon",
+            "Block 3": "adding a readme addon"
+        },
         "Connector": {},
         "Job": {}
     },

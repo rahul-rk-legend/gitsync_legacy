@@ -27,3 +27,4 @@ An embedded workflow that can receive inputs and return an output.
 |Siemplify_Change Priority_2|Automatically change case priority to the given input|Siemplify|Change Priority|
 |Siemplify_Case Tag_2|Add given tag to the case the current alert is grouped to|Siemplify|Case Tag|
 
+adding a readme addon
