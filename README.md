@@ -24,6 +24,7 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
+|Block 2|An embedded workflow that can receive inputs and return an output.|
 |Playbook 1||
 |Block 1|An embedded workflow that can receive inputs and return an output.|
 |Playbook 2||
